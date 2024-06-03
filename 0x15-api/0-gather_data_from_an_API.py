@@ -2,7 +2,7 @@
 """
 Returns the list to-do information for a given employee ID
 
-The script takes an ID of an employee as a command-line argument and fetches the 
+The script takes an ID of an employee as a command-line arg andfetches the
 user corresponds with information and to-do list from the JSONPlaceholder API
 Then it prints the tasks completed by the employee
 """

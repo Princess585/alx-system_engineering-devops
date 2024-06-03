@@ -7,7 +7,7 @@ import sys
 
 
 if __name__ == "__main__":
-    # Funct that gets the user ID from the command-line args provided to the script
+    # Func that gets the user ID from command-line args given to the script
     user_id = sys.argv[1]
 
     # It defines the base URL for the JSON API

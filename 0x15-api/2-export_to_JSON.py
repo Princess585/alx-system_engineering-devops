@@ -26,7 +26,7 @@ if __name__ == "__main__":
     params = {"userId": user_id}
     todos = requests.get(url + "todos", params).json()
 
-    # Function that creates a dictionary containing the user and to-do list info
+    # Func that creates a dictionary containing the user and to-do list info
     data_to_export = {
         user_id: [
             {
